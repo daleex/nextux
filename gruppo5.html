@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Material Design</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f5f5f5;
+            color: #212121;
+        }
+
+        /* Header */
+        header {
+            background: #6200ea;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: 700;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Navigation */
+        nav {
+            background: #3700b3;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 10px 15px;
+            border-radius: 4px;
+            transition: background 0.3s;
+        }
+
+        nav a:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        /* Main container */
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 30px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Blog Post */
+        .post {
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .post h2 {
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .post p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        /* Comments Section */
+        .comments {
+            margin-top: 20px;
+            background: #eeeeee;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        .comments h3 {
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+
+        .comment {
+            background: white;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 4px;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .comment strong {
+            color: #6200ea;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    Il Mio Blog
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Articoli</a>
+    <a href="#">Contatti</a>
+</nav>
+
+<div class="container">
+    <article class="post">
+        <h2>Titolo dell'Articolo</h2>
+        <p>Pubblicato il: <strong>18 Marzo 2025</strong></p>
+        <p>Questo è un esempio di articolo per il tuo blog con Material Design.</p>
+    </article>
+
+    <div class="comments">
+        <h3>Commenti</h3>
+        <div class="comment">
+            <p><strong>Utente1:</strong> Bel post!</p>
+        </div>
+        <div class="comment">
+            <p><strong>Utente2:</strong> Grazie per l'informazione.</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
